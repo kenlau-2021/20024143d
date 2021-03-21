@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background: url("flower.jpg");
+  background-size: 200px 260px;
+  background-repeat: repeat-y;
+  background-position: top center;
+  background-color: lightblue;
+}
+h1{
+  font-size:36px;
+  font-weight: bold;
+  text-shadow: 4px 4px 10px green;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+} 
+th,td {
+  border: 1px solid red;
+  padding: 10px;
+  font-size: 20px;
+}
+
+div {
+  width: 25%;
+  height: 50px;
+  position: relative;
+  font-size: 30px;
+  text-align: center;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;  
+  animation-direction: alternate;   
+}
+
+@keyframes example {
+  0%   {background-color: red;}
+  50%  {background-color: white;}
+  100%  {background-color: yellow;}
+}
+
+a{
+font-size:20px;
+}
+a:link {
+  background-color: lightgreen;
+}
+
+a:visited {
+  background-color: lightgreen;
+}
+
+a:hover {
+  background-color: yellow;
+}
+
+a:active {
+  background-color: yellow;
+}
+</style>
+<title>Mid Project</title>
+</head>
+<body>
+<div>Welcome to my homepage</div>
+<p style="font-size:24px; font-weight: bold; color: red;">Here is the homepage of Ken Lau.</p>
+<h1>Introduction</h1>
+<p style="font-size:24px;">I am Ken Lau, a student from <a href="https://www.polyu.edu.hk">Poly U</a>. 
+<br>This is the work for the course.</p>
+<table>
+<tr>
+<th>Favorite Item</th>
+<th> </th>
+</tr>
+<tr>
+<th>Food</th>
+<th>Chocolate</th>
+</tr>
+<tr>
+<th>Fruit</th>
+<th>Mango</th>
+</tr>
+<tr>
+<th>Animal</th>
+<th>Cat</th>
+</tr>
+</table>
+
+</body>
+</html>
